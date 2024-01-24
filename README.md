@@ -6,7 +6,7 @@
 async postAddressTextQuery(prompt: string) {
         
   await fetch(
-    this.apiUrl2,
+    "https://addressvalidation.googleapis.com/v1:validateAddress?key=",
       {
       body: JSON.stringify(
         {
